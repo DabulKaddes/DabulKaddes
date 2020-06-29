@@ -2288,8 +2288,7 @@ local textchuser = database:get(bot_id..'text:ch:user')
 if textchuser then
 send(msg.chat_id_, msg.id_,'['..textchuser..']')
 else
-send(msg.chat_id_, msg.id_,'- عليك الاشتراك في قناة البوت اولآ 📄\n- لكي تتمكن من استخدام البوت📮 
-- معرف القناة ['..database:get(bot_id..'add:ch:username')..']')
+send(msg.chat_id_, msg.id_,'- عليك الاشتراك في قناة البوت اولآ 📄\n- لكي تتمكن من استخدام البوت📮 - معرف القناة ['..database:get(bot_id..'add:ch:username')..']')
 end
 return false
 end
@@ -3050,8 +3049,7 @@ local textchuser = database:get(bot_id..'text:ch:user')
 if textchuser then
 send(msg.chat_id_, msg.id_,'['..textchuser..']')
 else
-send(msg.chat_id_, msg.id_,'- عليك الاشتراك في قناة البوت اولآ 📄\n- لكي تتمكن من استخدام البوت📮 
-- معرف القناة ['..database:get(bot_id..'add:ch:username')..']')
+send(msg.chat_id_, msg.id_,'- عليك الاشتراك في قناة البوت اولآ 📄\n- لكي تتمكن من استخدام البوت📮 - معرف القناة ['..database:get(bot_id..'add:ch:username')..']')
 end
 return false
 end
@@ -3217,8 +3215,7 @@ local textchuser = database:get(bot_id..'text:ch:user')
 if textchuser then
 send(msg.chat_id_, msg.id_,'['..textchuser..']')
 else
-send(msg.chat_id_, msg.id_,'- عليك الاشتراك في قناة البوت اولآ 📄\n- لكي تتمكن من استخدام البوت📮 
-- معرف القناة ['..database:get(bot_id..'add:ch:username')..']')
+send(msg.chat_id_, msg.id_,'- عليك الاشتراك في قناة البوت اولآ 📄\n- لكي تتمكن من استخدام البوت📮 - معرف القناة ['..database:get(bot_id..'add:ch:username')..']')
 end
 return false
 end
@@ -3251,7 +3248,7 @@ send(msg.chat_id_, msg.id_,"\n👤┇العضو » ["..data.first_name_.."](t.me
 database:set(bot_id.."DabulKaddes:Comd:New:rt:User:"..msg.chat_id_..result.sender_user_id_,RTPA)
 database:sadd(bot_id.."DabulKaddes:Mod:User"..msg.chat_id_,result.sender_user_id_)  
 elseif DabulKaddesrt == "مدير" and Constructor(msg) then
-send(msg.chat_id_, msg.id_,"\n👤┇العضو » ["..data.first_name_.."](t.me/"..(data.username_ or "BOBBW")..")".."\n📬┇تم رفعه "..RTPA.." هنا\n")   
+send(msg.chat_id_, msg.id_,"\n??┇العضو » ["..data.first_name_.."](t.me/"..(data.username_ or "BOBBW")..")".."\n📬┇تم رفعه "..RTPA.." هنا\n")   
 database:set(bot_id.."DabulKaddes:Comd:New:rt:User:"..msg.chat_id_..result.sender_user_id_,RTPA)  
 database:sadd(bot_id.."DabulKaddes:Manager"..msg.chat_id_,result.sender_user_id_)  
 elseif DabulKaddesrt == "عضو" and Addictive(msg) then
@@ -3341,8 +3338,7 @@ local textchuser = database:get(bot_id..'text:ch:user')
 if textchuser then
 send(msg.chat_id_, msg.id_,'['..textchuser..']')
 else
-send(msg.chat_id_, msg.id_,'- عليك الاشتراك في قناة البوت اولآ 📄\n- لكي تتمكن من استخدام البوت📮 
-- معرف القناة ['..database:get(bot_id..'add:ch:username')..']')
+send(msg.chat_id_, msg.id_,'- عليك الاشتراك في قناة البوت اولآ 📄\n- لكي تتمكن من استخدام البوت📮 - معرف القناة ['..database:get(bot_id..'add:ch:username')..']')
 end
 return false
 end
@@ -4735,7 +4731,7 @@ db = "صوره 🎇"
 elseif database:get(bot_id.."DabulKaddes:Add:Rd:Manager:Video"..v..msg.chat_id_) then
 db = "فيديو 📹"
 elseif database:get(bot_id.."DabulKaddes:Add:Rd:Manager:File"..v..msg.chat_id_) then
-db = "ملف ??"
+db = "ملف 📁"
 elseif database:get(bot_id.."DabulKaddes:Add:Rd:Manager:Audio"..v..msg.chat_id_) then
 db = "اغنيه 🎵"
 end
@@ -6129,8 +6125,7 @@ local textchuser = database:get(bot_id..'text:ch:user')
 if textchuser then
 send(msg.chat_id_, msg.id_,'['..textchuser..']')
 else
-send(msg.chat_id_, msg.id_,'- عليك الاشتراك في قناة البوت اولآ 📄\n- لكي تتمكن من استخدام البوت📮 
-- معرف القناة ['..database:get(bot_id..'add:ch:username')..']')
+send(msg.chat_id_, msg.id_,'- عليك الاشتراك في قناة البوت اولآ 📄\n- لكي تتمكن من استخدام البوت📮 - معرف القناة ['..database:get(bot_id..'add:ch:username')..']')
 end
 return false
 end
@@ -6177,8 +6172,7 @@ local textchuser = database:get(bot_id..'text:ch:user')
 if textchuser then
 send(msg.chat_id_, msg.id_,'['..textchuser..']')
 else
-send(msg.chat_id_, msg.id_,'- عليك الاشتراك في قناة البوت اولآ 📄\n- لكي تتمكن من استخدام البوت📮 
-- معرف القناة ['..database:get(bot_id..'add:ch:username')..']')
+send(msg.chat_id_, msg.id_,'- عليك الاشتراك في قناة البوت اولآ 📄\n- لكي تتمكن من استخدام البوت📮 - معرف القناة ['..database:get(bot_id..'add:ch:username')..']')
 end
 return false
 end
@@ -6770,8 +6764,7 @@ local textchuser = database:get(bot_id..'text:ch:user')
 if textchuser then
 send(msg.chat_id_, msg.id_,'['..textchuser..']')
 else
-send(msg.chat_id_, msg.id_,'- عليك الاشتراك في قناة البوت اولآ 📄\n- لكي تتمكن من استخدام البوت📮 
-- معرف القناة ['..database:get(bot_id..'add:ch:username')..']')
+send(msg.chat_id_, msg.id_,'- عليك الاشتراك في قناة البوت اولآ 📄\n- لكي تتمكن من استخدام البوت📮 - معرف القناة ['..database:get(bot_id..'add:ch:username')..']')
 end
 return false
 end  
@@ -7362,8 +7355,7 @@ local textchuser = database:get(bot_id..'text:ch:user')
 if textchuser then
 send(msg.chat_id_, msg.id_,'['..textchuser..']')
 else
-send(msg.chat_id_, msg.id_,'- عليك الاشتراك في قناة البوت اولآ 📄\n- لكي تتمكن من استخدام البوت📮 
-- معرف القناة ['..database:get(bot_id..'add:ch:username')..']')
+send(msg.chat_id_, msg.id_,'- عليك الاشتراك في قناة البوت اولآ 📄\n- لكي تتمكن من استخدام البوت📮 - معرف القناة ['..database:get(bot_id..'add:ch:username')..']')
 end
 return false
 end
