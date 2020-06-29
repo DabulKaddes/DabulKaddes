@@ -3856,14 +3856,14 @@ return false
 end  
 if text and text:match("^طرد @(.*)$") and Addictive(msg) then  
 if AddChannel(msg.sender_user_id_) == false then
-local textchuser = database:get(bot_id..'text:ch:user')
+local textchuser = database:get('DabulKaddes:'..bot_id..'text:ch:user')
 if textchuser then
 send(msg.chat_id_, msg.id_,'['..textchuser..']')
 else
-send(msg.chat_id_, msg.id_,'👥┇ لا تستطيع استخدام البوت يرجى الاشتراك في القناة حتى تتمكن من استخدام الاوامر \n 📌┇ اشترك هنا ['..database:get(bot_id..'add:ch:username')..']')
+send(msg.chat_id_, msg.id_,'- عليك الاشتراك في قناة البوت اولآ 📄\n- لكي تتمكن من استخدام البوت📮\n- معرف القناة ['..database:get('DabulKaddes:'..bot_id..'add:ch:username')..']')
 end
 return false
-end 
+end
 local username = text:match("^طرد @(.*)$")
 if not Constructor(msg) and database:get(bot_id.."Ban:Cheking"..msg.chat_id_) then 
 send(msg.chat_id_, msg.id_,'💢┇لقد تم تعطيل الحظر و الطرد من قبل المنشئين')
